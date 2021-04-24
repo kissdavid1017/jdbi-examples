@@ -8,9 +8,9 @@
     <version>1.0</version>
     <developers>
         <developer>
-            <id>jeszy</id>
-            <name>Péter Jeszenszky</name>
-            <email>jeszenszky.peter@inf.unideb.hu</email>
+            <id>kissdavid1017</id>
+            <name>Kiss Dávid Zsolt</name>
+            <email>kissdavid1017@gmail.com</email>
             <organization>Faculty of Informatics, University of Debrecen</organization>
             <organizationUrl>https://www.inf.unideb.hu/</organizationUrl>
         </developer>
@@ -28,6 +28,8 @@
         <exec.cleanupDaemonThreads>false</exec.cleanupDaemonThreads>
     </properties>
     <dependencies>
+
+
         <dependency>
             <groupId>org.jdbi</groupId>
             <artifactId>jdbi3-core</artifactId>
@@ -69,6 +71,18 @@
             <artifactId>slf4j-tinylog</artifactId>
             <version>${tinylog.version}</version>
             <scope>runtime</scope>
+
+        </dependency>
+        <dependency>
+            <groupId>com.github.javafaker</groupId>
+            <artifactId>javafaker</artifactId>
+            <version>1.0.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-codec</groupId>
+            <artifactId>commons-codec</artifactId>
+            <version>1.15</version>
         </dependency>
     </dependencies>
     <build>
